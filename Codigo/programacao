@@ -1,1 +1,45 @@
 
+O codigo devé ter um algoritmo analitico, que fará a melhor escolha dos cortes
+
+Teremos a medida de largura e comprimento e M² (R$1130,00)
+
+
+
+- Largura: Atrelada ao limite da maquina, sendo 2m de tamanho minimo e maximo - Se a medida for maior que dois, tera que adionar mais 2m e assim por diante.
+- Comprimento: Qualquer valor
+
+por exemplo: 6 (Largura) X 10 (Comprimento)  - Seram necessarios 3 revolutions de Largura, cada um medindo 2,00 de largura (totalizando 6m)
+
+
+Algumas medidas para exemplo de lógica
+
+2,5 X 4 - Serão necessários 2 Revolution ((2 X 4) & (2 X 4)) - Porém terá uma sobra de 1,5 X 4
+
+2,5 X 4 - Serão necessários 2 Revolution ((2 X 4) & (2 X 4)) - Porém terá uma sobra de 1,5 X 4
+
+*Já possuimos 2 sobras de 1,5 X 4 cada que podem ser utilizadas em outras peças se a medida for atendida
+
+3,5 X 5 - Serão necessários 2 Revolution ((2 X 5) & (2 X 5)) - Porém terá uma sobra de 0,5 X 5
+
+1 X 2 - Nesse caso não precisaremos encomendar mais uma peça, pois temos uma sobra que pode atender a medida
+
+Sobras
+
+- (1,5 X 4) | Irá sobrar duas peças (0,5 X 4) & (1 X 2)
+(1,5 X 4)
+(0,5 X 5)
+
+1,5 X 3 -  caso não precisaremos encomendar mais uma peça, pois temos uma sobra que pode atender a medida
+
+(0,5 X 4)
+(1 X 2)
+- (1,5 X 4) | Irá sobrar duas peças (0,5 X 4) & (1 X 2)
+(0,5 X 5)
+
+Sobras totais:
+
+(0,5 X 4)
+(0,5 X 4)
+(1 X 2)
+(1 X 2)
+(0,5 X 5)
