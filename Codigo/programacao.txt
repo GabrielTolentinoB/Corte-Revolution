@@ -1,4 +1,3 @@
-
 O codigo devé ter um algoritmo analitico, que fará a melhor escolha dos cortes
 
 Teremos a medida de largura e comprimento e M² (R$1130,00)
