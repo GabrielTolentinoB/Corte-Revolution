@@ -59,13 +59,6 @@ while True:
             print(f"{i:02d} | Largura: {largura:8.2f} | Comprimento: {comprimento:8.2f} | m²: {metro_quadrado:8.2f}")
 
 
-
-
-
-
-
-
-
     elif comando == "q":
         print("Saindo...")
         break
