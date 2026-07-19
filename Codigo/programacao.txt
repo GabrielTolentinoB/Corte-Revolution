@@ -42,3 +42,15 @@ Sobras totais:
 (1 X 2)
 (1 X 2)
 (0,5 X 5)
+
+
+Sobre a conta:
+
+Deve-se:
+
+
+Depois de Largura e Comprimento inseridos:
+
+- os valores serão armazenados em uma matriz. dentro de: (TodosOsValoresInseridos = [])
+
+- Entrará uma conta que será (RevolutionMedidas)
