@@ -92,12 +92,6 @@ while True:
         for i, (largura, comprimento, metro_quadrado) in enumerate(ResultadosEmMetroQuadrado, start=1):
             print(f"{i:02d} | Largura: {largura:8.2f} | Comprimento: {comprimento:8.2f} | m²: {metro_quadrado:8.2f}")
 
-#Comando para reordenar e recalcular sobras de Revolution
-    elif comando == "r":
-
-        print("Reordenamento e recalculo concluídos.")
-        print(TodosOsValoresInseridos)  
-
 #Comando para sair do programa    
     elif comando == "q":
         print("Saindo...")
